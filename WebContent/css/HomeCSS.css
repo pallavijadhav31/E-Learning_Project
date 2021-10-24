@@ -1,0 +1,46 @@
+.bd{
+	padding: 380px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.loginbox{
+	width: 600px;
+	height: 700px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	bottom: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	left: 25%;
+}
+.loginbox p{
+	font-weight: bold;
+}
+.loginbox input{
+	width: 80%;
+	margin-bottom: 20px;	
+}
+.loginbox input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="number"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+}
+.loginbox input[type="submit"]{
+	border: none;
+	otline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px; 
+}
+.loginbox a{
+	color: #fff;
+	font-size: 18px;
+}
